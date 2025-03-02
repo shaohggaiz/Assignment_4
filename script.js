@@ -25,6 +25,7 @@ for(let i of btn) {
         increase()
     })
 }
+// even
 let task = document.querySelector('.task');
 let increaseT = document.querySelector('.increase');
 let count1 = 6;

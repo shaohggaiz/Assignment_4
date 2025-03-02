@@ -6,14 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DevBoa</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body class="bg-sky-50 w-full">
-
-
+  <!-- start point -->
   <header>
     <nav class="pt-7 mb-2">
       <div class="navbar rounded-lg w-[90%] m-auto bg-base-100 shadow-sm">
@@ -34,12 +35,12 @@
     </nav>
   </header>
   <main>
-    <div class= "grid grid-cols-3 gap-5 w-[90%] mx-auto">
+    <div class="grid grid-cols-3 gap-5 w-[90%] mx-auto">
       <div class="col-span-2 bg-white pt-5 rounded-lg">
         <div class="flex justify-around items-center">
           <div class="py-5 px-7 flex items-center gap-4 bg-sky-50 rounded-2xl">
             <input type="checkbox" checked="checked" class="checkbox" />
-            <div >
+            <div>
               <p class="border-dotted">Task Assigned</p>
               <h3 class="text-3xl font-bold">0<span class="task">6</span></h3>
             </div>
@@ -47,7 +48,9 @@
           <a href="main.html">
             <div class="py-5 rounded-2xl px-14 bg-linear-to-r from-[#3752FD] to-[#9BA8F8] flex gap-4 items-center ">
               <img class="w-12" src="image/Group.png" alt="">
-              <a href="main.html"><h2 class="text-white cursor-pointer">Discover Something <br> New Today!</h2></a>
+              <a href="main.html">
+                <h2 class="text-white cursor-pointer">Discover Something <br> New Today!</h2>
+              </a>
             </div>
           </a>
           <div class="py-5 px-7 flex gap-5 rounded-2xl items-center bg-sky-50">
@@ -59,9 +62,10 @@
         <div class="grid grid-cols-2 justify-items-center gap-y-8">
           <div class="card mt-5 card-dash bg-sky-50 w-92">
             <div class="card-body">
-                <p class="bg-white w-25 text-center text-base p-2 rounded-lg">ShopEase</p>
+              <p class="bg-white w-25 text-center text-base p-2 rounded-lg">ShopEase</p>
               <h2 class="card-title">Fix Mobile Button Issue</h2>
-              <p class="bg-white rounded-lg text-gray-500 p-2 hy-3">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+              <p class="bg-white rounded-lg text-gray-500 p-2 hy-3">Debug using Chrome DevTools, check for overlapping
+                elements, and ensure onClick works properly
                 and ensure onClick works properly</p>
               <div class="card-actions justify-between">
                 <div>
@@ -73,11 +77,12 @@
             </div>
           </div>
           <!-- card 2 -->
-           <div class="card card-dash mt-5 bg-sky-50 w-92">
+          <div class="card card-dash mt-5 bg-sky-50 w-92">
             <div class="card-body">
               <p class="bg-white w-25 text-center text-base p-2 rounded-lg">CloudSync</p>
               <h2 class="card-title">Add Dark Mode</h2>
-              <p class="bg-white text-gray-500 rounded-lg p-2 hy-3">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
+              <p class="bg-white text-gray-500 rounded-lg p-2 hy-3">Store the user's preference in localStorage, update
+                CSS variables dynamically, and apply a smooth transition effect.</p>
               <div class="card-actions justify-between">
                 <div>
                   <p>Deadline</p>
@@ -91,8 +96,9 @@
           <div class="card card-dash bg-sky-50 w-92">
             <div class="card-body">
               <p class="bg-white w-25 text-center text-base p-2 rounded-lg">SwiftPay</p>
-              <h2 class="card-title">Optimize  Home page </h2>
-              <p class="bg-white text-gray-500 rounded-lg p-2 hy-3">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+              <h2 class="card-title">Optimize Home page </h2>
+              <p class="bg-white text-gray-500 rounded-lg p-2 hy-3">Debug using Chrome DevTools, check for overlapping
+                elements, and ensure onClick works properly
                 and ensure onClick works properly</p>
               <div class="card-actions justify-between">
                 <div>
@@ -108,7 +114,8 @@
             <div class="card-body">
               <p class="bg-white w-25 text-center text-base p-2 rounded-lg">Meta</p>
               <h2 class="card-title">Add new emoji 🤲</h2>
-              <p class="bg-white text-gray-500 rounded-lg p-2 hy-3">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly</p>
+              <p class="bg-white text-gray-500 rounded-lg p-2 hy-3">Debug using Chrome DevTools, check for overlapping
+                elements, and ensure onClick works properly</p>
               <div class="card-actions justify-between">
                 <div>
                   <p>Deadline</p>
@@ -117,13 +124,14 @@
                 <button class="main-btn btn px-8 border border-none btn-primary bg-[#3752FD]">Completed</button>
               </div>
             </div>
-          </div> 
+          </div>
           <!-- card 5 -->
           <div class="card card-dash bg-sky-50 w-92">
             <div class="card-body">
               <p class="bg-white w-25 text-center text-base p-2 rounded-lg">Google LLC</p>
               <h2 class="card-title">Integrate OpenAI API </h2>
-              <p class="bg-white text-gray-500 rounded-lg p-2 hy-3">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+              <p class="bg-white text-gray-500 rounded-lg p-2 hy-3">Debug using Chrome DevTools, check for overlapping
+                elements, and ensure onClick works properly
                 and ensure onClick works properly</p>
               <div class="card-actions justify-between">
                 <div>
@@ -133,13 +141,14 @@
                 <button class="main-btn btn px-8 border border-none btn-primary bg-[#3752FD]">Completed</button>
               </div>
             </div>
-          </div> 
+          </div>
           <!-- clard 6 -->
           <div class="card card-dash bg-sky-50 w-92">
             <div class="card-body">
               <p class="bg-white w-25 text-center text-base p-2 rounded-lg">Glassdoar</p>
               <h2 class="card-title">Improve Job searching </h2>
-              <p class="bg-white text-gray-500 rounded-lg p-2 hy-3">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+              <p class="bg-white text-gray-500 rounded-lg p-2 hy-3">Debug using Chrome DevTools, check for overlapping
+                elements, and ensure onClick works properly
                 and ensure onClick works properly</p>
               <div class="card-actions justify-between">
                 <div>
@@ -149,13 +158,13 @@
                 <button class="main-btn btn px-8 border border-none btn-primary bg-[#3752FD]">Completed</button>
               </div>
             </div>
-          </div> 
+          </div>
         </div>
       </div>
       <!-- aside -->
       <aside class="bg-white p-5 rounded-lg">
         <div class=" border-b border-dotted border-gray-500 pb-6 w-full  m-auto w-70 text-center items-center">
-          <div class="flex gap-3 justify-center items-center pb-6" >
+          <div class="flex gap-3 justify-center items-center pb-6">
             <p><i class="text-2xl  fa-solid fa-clock-rotate-left"></i></p>
             <span class="font-medium text-2xl">Activity log</span>
           </div>
@@ -173,4 +182,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
