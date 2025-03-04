@@ -7,13 +7,11 @@ let history = document.querySelector('.history');
 let randomeColor = document.querySelector('#randomeColor');
 for(let i of btn) {
     i.addEventListener('click', (e)=> {
-        console.log(i)
         i.setAttribute('disabled', 'disabled');
         alert('Bord updated Successful')
         let event = e.target.parentElement.previousElementSibling.previousElementSibling.innerText
         // alert(event)
         let paragaraph = `You have completed the task ${event} at ${updateClock()}`
-        console.log(paragaraph)
         discript.innerHTML +=  `
         <p>
         ${paragaraph}
